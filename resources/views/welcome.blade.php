@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Klik ini untuk melanjutkan <a class="btn btn-primary" href="{{ route('logins.index') }}"> Login</a>
+                    Klik disini <a class="btn btn-primary" href="{{ route('logins.index') }}"> Mulai</a>
                 </div>
 
 

@@ -20,6 +20,26 @@ class LoginController extends Controller
 
     }
 
+    public function check(Request $request, $id)
+    {
+       /* $input = $request->all();
+   
+        $validator = Validator::make($input, [
+            'name' => 'required',
+            'detail' => 'required'
+        ]);
+   
+        if($validator->fails()){
+            return $this->sendError('Validation Error.', $validator->errors());       
+        }
+        $product = Product::find($id);   
+        $product->name = $input['name'];
+        $product->detail = $input['detail'];
+        $product->save();
+   
+        return $this->sendResponse(new ProductResource($product), 'Product Updated Successfully.');*/
+    }
+
     public function create()
 
     {

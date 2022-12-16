@@ -18,6 +18,30 @@
     @csrf
   
      <div class="row">
+
+     <br>
+     <br>
+     <div class="col-xs-6 col-sm-6 col-md-6">
+     <h4>Login</h4>
+     <hr>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Username:</strong>
+                <input type="text" name="username" class="form-control" placeholder="username">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Password:</strong>
+                <input type="password" class="form-control"  name="password" >
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+     </div>
+
      <div class="col-xs-6 col-sm-6 col-md-6">
      <h4>Register</h4>
      <hr>
@@ -52,7 +76,7 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Register</button>
         </div>
      </div>  
     </div>
