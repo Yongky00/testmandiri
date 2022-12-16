@@ -13,7 +13,7 @@ class UserProfile extends Migration
      */
     public function up()
     {
-        Schema::create('UserProfile', function (Blueprint $table) {
+        Schema::create('user_profiles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('username', 50)->unique();
             $table->string('name', 50);
@@ -22,7 +22,6 @@ class UserProfile extends Migration
             $table->string('email', 50);
             $table->date('created_at');
             $table->date('updated_at');
-            $table->date('deleted_at');
         });
     }
 
@@ -33,6 +32,6 @@ class UserProfile extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('UserProfile');
+        Schema::dropIfExists('user_profiles');
     }
 }

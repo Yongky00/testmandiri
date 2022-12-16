@@ -36,6 +36,7 @@ class LoginController extends Controller
 
         $request->validate([
 
+            'username' => 'required',
             'name' => 'required',
 
             'address' => 'required',
